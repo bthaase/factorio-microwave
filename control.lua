@@ -21,7 +21,7 @@ function countTowers()
 	return c
 end
 
-function findTowerFromEntityEntity(entity)
+function findTowerFromEntity(entity)
 	local r = nil
 	for id,tower in pairs(global.microwaves) do
 		if ( tower.entity == entity ) then r=tower end
