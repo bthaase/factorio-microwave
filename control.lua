@@ -321,6 +321,7 @@ end
 
 -- Scan all tower targets and clear them if their forces no longer match.
 function reset_targets()
+	local towers = table.filter(global.microwaves, function(e) return (e.entity and e.entity.valid) end)
 	table.each(towers, function(tower)
 		if ( tower.entity and tower.entity.valid and tower.target and tower.target.valid ) then
 			if ( tower.target.force == tower.entity.force ) then
