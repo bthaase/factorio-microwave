@@ -1,11 +1,11 @@
 {
 	 "name": "camedo-microwave",
-	 "version": "1.0.2",
+	 "version": "1.0.3",
 	 "title": "Microwave Transmission",
 	 "author": "Brian Haase",
 	 "contact": "",
 	 "homepage": "https://github.com/bthaase/Factorio-Microwave",
-	 "factorio_version": "0.17",
+	 "factorio_version": "0.18",
 	 "dependencies": [
 		"base >= 0.17",
 		"? bobvehicleequipment >= 0.17.5"

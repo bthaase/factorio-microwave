@@ -10,6 +10,7 @@ data:extend{mwTowerCorpse}
 microwaveTower.name = "microwave-tower"
 microwaveTower.minable = {mining_time = 0.5, result = "microwave-tower"}
 microwaveTower.icon = "__camedo-microwave__/graphics/icons/tower.png"
+microwaveTower.icon_size = 32
 microwaveTower.fast_replaceable_group = "electric-pole"
 microwaveTower.corpse = mwTowerCorpse.name
 microwaveTower.pictures =
