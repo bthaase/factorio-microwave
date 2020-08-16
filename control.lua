@@ -217,7 +217,7 @@ end
 
 -- TODO: We may need to figure out a better solution for search types. Maybe data-final-fixes can scan for all prototypes that include an equipment grid and store a list in global?
 function microwaveSearchTarget(tower)
-	local search = tower.entity.surface.find_entities_filtered{position=tower.entity.position, radius=global.mwChargeRadius, force=tower.entity.force, type={"character", "car", "tank"}}
+	local search = tower.entity.surface.find_entities_filtered{position=tower.entity.position, radius=global.mwChargeRadius, force=tower.entity.force, type={"character", "car", "tank", "spider-vehicle"}}
 	
 	search = table.filter(search, function(e) return (e.valid) end)
 	search = table.filter(search, function(e) return (isTargetCharging(e) == false) end)
