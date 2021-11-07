@@ -324,7 +324,7 @@ function reset_targets()
 	local towers = table.filter(global.microwaves, function(e) return (e.entity and e.entity.valid) end)
 	table.each(towers, function(tower)
 		if ( tower.entity and tower.entity.valid and tower.target and tower.target.valid ) then
-			if ( tower.target.force == tower.entity.force ) then
+			if ( tower.target.force == tower.entity.force and tower.entity.surface.index == tower.target.surface.index ) then
 				--
 			else 
 				tower.target = nil
