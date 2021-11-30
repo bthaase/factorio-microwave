@@ -14,20 +14,5 @@ towerNew.maximum_wire_distance = towerBase.maximum_wire_distance	-- Match the wi
 towerNew.supply_area_distance = towerBase.supply_area_distance		-- Match the supply area.
 
 -- Update default equipment categories
-data.raw["battery-equipment"]["microwave-receiver-small"].categories = { "armor" }
-data.raw["battery-equipment"]["microwave-receiver-large"].categories = { "armor" }
-
-if ( hasVehicles ) then
-	data.raw["battery-equipment"]["microwave-vehicle-receiver-small"].categories = equipmentCategories
-	data.raw["battery-equipment"]["microwave-vehicle-receiver-large"].categories = equipmentCategories
-	
-	-- check for vehicle-equipment subgroup (Bob's Vehicle Equipment) and move our gear into that grouping.
-	if ( data.raw["item-subgroup"]["vehicle-equipment"] ) then
-		data.raw["item"]["microwave-vehicle-receiver-small"].subgroup = "vehicle-equipment"
-		data.raw["item"]["microwave-vehicle-receiver-large"].subgroup = "vehicle-equipment"
-		data.raw["item"]["microwave-vehicle-receiver-small"].order = "v[vehicle-equipment]-m[microwave]-1"
-		data.raw["item"]["microwave-vehicle-receiver-large"].order = "v[vehicle-equipment]-m[microwave]-2"
-	end
-else 
-	
-end
+data.raw["battery-equipment"]["microwave-receiver-small"].categories = equipmentCategories -- { "armor" }
+data.raw["battery-equipment"]["microwave-receiver-large"].categories = equipmentCategories -- { "armor" }

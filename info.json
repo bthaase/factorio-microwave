@@ -1,14 +1,11 @@
 {
 	 "name": "camedo-microwave",
-	 "version": "1.0.5",
+	 "version": "1.0.8",
 	 "title": "Microwave Transmission",
 	 "author": "Brian Haase",
 	 "contact": "",
 	 "homepage": "https://github.com/bthaase/Factorio-Microwave",
 	 "factorio_version": "1.1",
-	 "dependencies": [
-		"base >= 1.1.0",
-		"? bobvehicleequipment >= 0.17.5"
-	 ],
+	 "dependencies": [ "base >= 1.1.0" ],
 	 "description": "Adds microwave transmission towers and rectenna receivers, for wirelessly charging batteries in equipment grids. Additional receivers can be used to increase throughput. Compatible with most anything that has an equipment grid."
 }

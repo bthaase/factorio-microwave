@@ -124,7 +124,7 @@ data:extend({
     working_sound = {
       {
         filename = "__base__/sound/fight/electric-beam.ogg",
-        volume = 0.8
+        volume = 0.3
       }
     }
   },

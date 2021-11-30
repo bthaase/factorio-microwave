@@ -4,6 +4,7 @@
 ---------------------------------------------------------------------------------------------------------------------
 require("config")
 
+--[[
 if ( hasVehicles ) then
 	require("prototypes.items-vehicle")
 	require("prototypes.equipment-vehicle")
@@ -13,3 +14,4 @@ if ( hasVehicles ) then
 	table.insert(data.raw["technology"]["microwave-charging1"].effects, { type = "unlock-recipe", recipe = "microwave-vehicle-receiver-small" })
 	table.insert(data.raw["technology"]["microwave-charging2"].effects, { type = "unlock-recipe", recipe = "microwave-vehicle-receiver-large" })	
 end
+]]--

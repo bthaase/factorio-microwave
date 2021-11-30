@@ -72,7 +72,7 @@ local transparent_pic =
   frame_count = 1
 }
 
--- player_creation allows blueprinting and shit, turned off.
+-- player_creation allows blueprinting and such, turned off.
 -- flags = {"placeable-neutral", "player-creation"},
 -- TODO: Did we screw up power interface inspection?
 local mwInterface = {
@@ -89,9 +89,9 @@ local mwInterface = {
 	selectable_in_game=false,
 	energy_source = {
 		type="electric",
-		buffer_capacity="10MJ",
+		buffer_capacity="2MJ",
 		usage_priority="secondary-input",
-		input_flow_limit="10MW",
+		input_flow_limit="2MW",
 		output_flow_limit="0W"
 	},
 	picture=transparent_pic,

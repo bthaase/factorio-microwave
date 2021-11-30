@@ -1,25 +1,59 @@
-==============================================================================
-v1.0.5
-------------------------------------------------------------------------------
-Updated for Factorio v1.1
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 2021-03-29
+  Bugfixes:
+    - Added support for Space Exploration, or any mod that clones the towers.
 
-==============================================================================
-v1.0.4
-------------------------------------------------------------------------------
-Updated for Factorio v1.0
-Added support for grid-equipped Spidertron vehicles.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 2021-03-26
+  Changes:
+    - Reduced volume of microwave beam sound effect.
 
-==============================================================================
-v1.0.3
-------------------------------------------------------------------------------
-Updated for Factorio v18.x
+  Bugfixes:
+    - Fixed some (many >.>) calculation errors.
+    - Microwave towers now detach from fully-charged targets correctly.
 
-==============================================================================
-v1.0.2
-------------------------------------------------------------------------------
-Fixed a crash when players change forces or surfaces.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 2021-03-24
+  Changes:
+    - Removed the vehicle specific microwave dishes. Receivers work in anything now.
+    - Existing receivers have been buffed.
+    - Added a small passive draw to transmission towers.
 
-==============================================================================
-v1.0.1
-------------------------------------------------------------------------------
-Fixed a bug causing a crash when breaking towers.
+  Bugfixes:
+    - Added support for script_raised_destroy event.
+    - Added support for grids on locomotives and wagons.
+    - Fixed a bug with towers not actually consuming power from the grid.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2021-02-22
+  Changes:
+    - Updated for Factorio v1.1
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2020-08-16
+  Changes:
+    - Updated for Factorio v1.0
+    - Added support for grid-equipped Spidertron vehicles.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2020-02-10
+  Changes:
+    - Updated for Factorio v18.x
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2019-12-14
+  Bugfixes:
+    - Fixed a crash when players change forces or surfaces.
+
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2019-12-12
+  Bugfixes:
+    - Fixed a bug causing a crash when breaking towers.
