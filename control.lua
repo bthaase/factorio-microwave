@@ -336,7 +336,7 @@ function on_removed_entity(event)
 	if ( is_tower_entity(entity) ) then unregister_tower(entity) end
 end
 
--- Scan all tower targets and clear them if their forces no longer match.
+-- Scan all tower targets and clear them if their forces or surface no longer match.
 function reset_targets()
 	local towers = table.filter(global.microwaves, function(e) return (e.entity and e.entity.valid) end)
 	table.each(towers, function(tower)
